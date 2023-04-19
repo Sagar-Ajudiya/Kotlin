@@ -33,7 +33,7 @@ class Lamp {
 
 // default parameter is only used with primary constructor
 
-class Person(val _firstName: String = "Default", var _age: Int = 0) {
+open class Person(val _firstName: String = "Default", var _age: Int = 0) {
     val firstName = _firstName
     val age = _age
 
